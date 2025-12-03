@@ -1,0 +1,2 @@
+# create a load balancer in AWS 
+# loadbalancer-> applicatiion load balancer ->internet facing-> target grp with nodeport number-> ec2 instances

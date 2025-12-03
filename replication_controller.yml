@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: replicationController
+metadata:
+  name: myrc
+spec:
+  replicas: 3  # number of pod replicas
+  selector:
+    app: myapp # label selector to identify pods
+  template:
+    metadata:
+      name: myapp # name of the pod
+      labels:
+        app: myapp # label to be applied to pods 
+    spec:
+      containers:      
+        - name: mynginx
+          image: nginx:latest
+          ports:
+            - containerPort: 80
