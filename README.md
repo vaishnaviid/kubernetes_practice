@@ -2,7 +2,7 @@
 
 create shortcut for commands
 $ sudo vim /etc/profile
-$ alias k='kubectl'
+$ alias k='kubectl'            
 $ sudo source /etc/profile
       
 - create a pod 
