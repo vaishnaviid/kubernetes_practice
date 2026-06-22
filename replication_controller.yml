@@ -10,7 +10,7 @@ spec:
     metadata:
       name: myapp # name of the pod
       labels:
-        app: myapp # label to be applied to pods 
+       app: myapp # label to be applied to pods 
     spec:
       containers:      
         - name: mynginx
