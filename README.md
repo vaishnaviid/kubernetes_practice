@@ -1,5 +1,5 @@
 ﻿# kubernetes_practice
-                                                                            
+                                                                              
 create shortcut for commands
 $ sudo vim /etc/profile  
 $ alias k='kubectl'              
