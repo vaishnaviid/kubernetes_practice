@@ -3,8 +3,8 @@
 create shortcut for commands
 $ sudo vim /etc/profile  
 $ alias k='kubectl'              
-$ sudo source /etc/profile                    
-                                          
+      $ sudo source /etc/profile                    
+                                                
 - create a pod   
 $ kubectl apply -f <pod.yml>                    
 $ sudo kubectl get pod
